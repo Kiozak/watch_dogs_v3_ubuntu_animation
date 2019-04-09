@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=watch_dogs
-Description=inspired animation from watch dogs 
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/watch_dogs/animation
-ScriptFile=/usr/share/plymouth/themes/watch_dogs/animated-boot.script

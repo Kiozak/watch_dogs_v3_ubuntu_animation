@@ -12,7 +12,9 @@ it ain't much but it's honest work , hope you like it
 
 <strong> How to Install </strong>
   <br>
-  - first clone the folder to your Desktop .
+  - first clone the folder to your Desktop using: 
+  ``` git clone  https://github.com/Kiozak/watch_dogs_v3_ubuntu_animation.git``` 
+  - or just download the file if you don't have git installed
   - copy the folder using this command <br>
   ```cp -r watch_dogs_v3_ubuntu_animation-master /usr/share/plymouth/themes``` 
   - now open a terminal inside the folder and run <br>

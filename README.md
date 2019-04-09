@@ -12,17 +12,20 @@ it ain't much but it's honest work , hope you like it
 
 <strong> How to Install </strong>
   <br>
-  - first clone the folder to your Desktop .
-  - copy the folder using this command <br>
-  ```cp -r watch_dogs_v3_ubuntu_animation-master /usr/share/plymouth/themes``` 
+  - first clone the folder to your Desktop using: 
+  ``` git clone  https://github.com/Kiozak/watch_dogs_v3_ubuntu_animation.git``` 
+  - or just download the file if you don't have git installed
+  - extract the folder to you Desktop
+  - Now copy the folder from your Desktop to themes folder using this command <br>
+  ```sudo cp -r watch_dogs_v3_ubuntu_animation /usr/share/plymouth/themes``` 
   - now open a terminal inside the folder and run <br>
-  ```sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/watch_dogs_v3_ubuntu_animation-master/watch_dogs_v3_ubuntu_animation-master.plymouth 100```
+  ```sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes   /watch_dogs_v3_ubuntu_animation/watch_dogs_v3_ubuntu_animation.plymouth 100```
   - then run <br>
   ```sudo update-alternatives --config default.plymouth```
   something like this will pop-up in the terminal :<br>
   ```  0            /usr/share/plymouth/themes/watch_dogs/watch_dogs.plymouth         100       auto mode
   1            /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth       100       manual mode
-* 2            /usr/share/plymouth/themes/watch_dogs/watch_dogs_v3_ubuntu_animation-master.plymouth         100       manual mode
+* 2            /usr/share/plymouth/themes/watch_dogs/watch_dogs_v3_ubuntu_animation.plymouth         100       manual mode
 ```
 - choose number 2 , or the number that shows the animation folder <br>
 -then run : <br>

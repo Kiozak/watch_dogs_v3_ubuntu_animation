@@ -19,7 +19,7 @@ it ain't much but it's honest work , hope you like it
   - Now copy the folder from your Desktop to themes folder using this command <br>
   ```sudo cp -r watch_dogs_v3_ubuntu_animation /usr/share/plymouth/themes``` 
   - now open a terminal inside the folder and run <br>
-  ```sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes   /watch_dogs_v3_ubuntu_animation/watch_dogs_v3_ubuntu_animation.plymouth 100```
+  ```sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/watch_dogs_v3_ubuntu_animation/watch_dogs_v3_ubuntu_animation.plymouth 100```
   - then run <br>
   ```sudo update-alternatives --config default.plymouth```
   something like this will pop-up in the terminal :<br>

@@ -8,3 +8,21 @@ Note: The animation could be cut out if your pc boot fast , i don't know how to 
 
 
 it ain't much but it's honest work , hope you like it 
+
+
+
+
+
+<strong> How to Install </strong>
+  <br>
+  use these commands
+  
+ ```
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/watch_dogs2/watch_dogs2.plymouth 100
+
+sudo update-alternatives --config default.plymouth
+
+sudo update-initramfs -u
+```
+
+or open a terminal in the folder and run ```./install.sh```
